@@ -7,34 +7,27 @@ public class RunnableClass {
 		// object --> a noun, it's an instantiation of a class
 		
 		//data type, variable name, assignment operation
-		int someNumber = 93;
+		//int someNumber = 93;
 
 		Human rubenPage = new Human();
-		
-		rubenPage.eyeColor = "brown";
-		rubenPage.gender = "male";
-		rubenPage.height = "5'5\"";
-		rubenPage.weight = "160";
+		rubenPage.setProperties("male","5'5\"", "160", "brown");
 		
 		System.out.println(rubenPage.getInfo());
 		
 		Human albertEinstein = new Human();
-		albertEinstein.eyeColor = "brown";
-		albertEinstein.gender = "male";
-		albertEinstein.height = "5'7\"";
-		albertEinstein.weight = "198";
+		albertEinstein.setProperties("male", "5'7\"", "198", "brown");
 		
 		System.out.println(albertEinstein.getInfo());		
 		
 		Human angelinaJolie = new Human();
-		
-		angelinaJolie.eyeColor = "blue";
-		angelinaJolie.gender = "female";
-		angelinaJolie.height = "5'7\"";
-		angelinaJolie.weight = "119";
+		angelinaJolie.setProperties("female", "5'7\"", "119", "blue");
 			
 		System.out.println(angelinaJolie.getInfo());
 	}
 
 };
+
+
+
+
 
