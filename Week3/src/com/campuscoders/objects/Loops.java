@@ -1,14 +1,15 @@
 package com.campuscoders.objects;
 
 public class Loops {
+	
 	public static void main (String[] args) {
+		// for loop example code
+//		ForLoopsExample example1 = new ForLoopsExample();
+//		example1.forLoopExample();
 		
-		// initialization, termination condition, increment
-		for (int i = 1; i <= 100; i = i +33) {
-			System.out.print(i + ": ");
-			System.out.println(i*i);
-		}
-		
-		System.out.println("done!!");
-	}
+		// while loop example code
+		WhileLoopExample whileExample1 = new WhileLoopExample();
+//		whileExample1.whileLoopExample1();
+		whileExample1.whileLoopExample2();
+	}	
 }
